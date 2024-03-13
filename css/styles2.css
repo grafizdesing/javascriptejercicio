@@ -1,0 +1,69 @@
+/* Agrega tus estilos personalizados aquí */
+
+body {
+    padding-top: 20px; /* Ajusta el espaciado superior del cuerpo según sea necesario */
+  }
+  
+  /* Estilos para las cajas de contenido */
+  .content2 {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilos para las cajas de fondo */
+  .fondo1 {
+    background-color: #f2f2f2;
+  }
+  
+  .fondo2 {
+    background-color: #e6e6e6;
+  }
+  
+  .fondo3 {
+    background-color: #d9d9d9;
+  }
+  
+  .fondo4 {
+    background-color: #cccccc;
+  }
+  
+  .fondo5 {
+    background-color: #bfbfbf;
+  }
+  
+  .fondo6 {
+    background-color: #b3b3b3;
+  }
+  
+  .fondo7 {
+    background-color: #a6a6a6;
+  }
+  
+  .fondo8 {
+    background-color: #999999;
+  }
+  
+  .fondo9 {
+    background-color: #8c8c8c;
+  }
+  
+  .fondo10 {
+    background-color: #808080;
+  }
+  
+  .fondo11 {
+    background-color: #737373;
+  }
+  
+  /* Estilo específico para la caja que se oculta en dispositivos pequeños */
+  @media (max-width: 576px) {
+    .fondo4 {
+      display: none;
+    }
+  }
+  
+  /* Ajustes de estilo adicionales según sea necesario */
+  
+  

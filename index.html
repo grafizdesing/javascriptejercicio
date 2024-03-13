@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with JohnDoe landing page.">
+    <meta name="author" content="Devcrud">
+    
+    <title>  Mi portafolio </title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS  -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+
+    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 content">
+
+        <nav class="navbar">
+            <div class="container">
+              <div class="brand">Mi Sitio Web</div>
+              <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <ul class="nav-list" id="nav-list">
+                <li><a href=".html">Página 1</a></li>
+                <li><a href=".html">Página 2</a></li>
+                <li><a href=".html">Página 3</a></li>
+                <li><a href=".html">Página 4</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+    </div>
+
+    
+
+
+  <div class="container-fluid ">
+    <header class="row">
+      <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 content fondo1 nested-box long6">
+        <h1 class="title">Título 1</h1>
+        <button id="changeTitleBtn">Cambiar Títulos</button>
+    </header>
+  </div>
+
+  
+
+
+  <div class="container-fluid ">
+    <header class="row">
+      <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 content fondo2 nested-box long6">
+        <h1>Página 1</h1>
+        <p>Esta es la página 1.</p>
+        <button id="changeColorBtn">Cambiar Color</button>
+
+      </div>
+    </header>
+  </div>
+
+
+
+  <div class="container-fluid ">
+    <header class="row">
+      <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 content fondo3 nested-box long6">
+        <h1>Página 4</h1>
+         <div id="popupTrigger">Pasa el cursor aquí</div>
+    </header>
+  </div>
+
+
+  <div class="container-fluid ">
+    <header class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 content fondo4 nested-box long6">
+
+      <img id="bannerImage" src="img/heroeneos.jpeg">
+
+
+    </header>
+
+
+    <header class="row">
+  
+  
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 content fondo4 nested-box long6">
+  
+                  <button onclick="changeImage('img/craneoconvocado.jpeg')"><h4>1</h4></button>
+                  <button onclick="changeImage('img/dragoncyberfinal.jpeg')"><h4>2</h4></button>
+                  <button onclick="changeImage('img/heroeneos.jpeg')"><h4>3</h4></button>
+                  <button onclick="changeImage('img/magooscuro.jpeg')"><h4>4</h4></button> <br> <br>
+                  <script>
+                      function changeImage(fileName) {
+                          let img = document.querySelector("#bannerImage");
+                          img.setAttribute("src", fileName);
+                      }
+                  </script>
+    </header>
+
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- JohnDoe js -->
+    <script src="js/javascript.js"></script>
+
+</body>
+</html>
